@@ -1,0 +1,6 @@
+vim.api.nvim_set_option_value("termguicolors", true, {})
+vim.api.nvim_set_option_value("scrolloff", 4, {})
+vim.api.nvim_set_option_value("ignorecase", true, {})
+vim.api.nvim_set_option_value("smartcase", true, {})
+vim.api.nvim_set_option_value("inccommand", "split", {})
+vim.api.nvim_set_option_value("clipboard", "unnamedplus", {})
