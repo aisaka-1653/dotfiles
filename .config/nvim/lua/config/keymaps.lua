@@ -4,6 +4,7 @@ vim.keymap.set("n", "ZQ", "<NOP>")
 vim.keymap.set("i", "jj", "<Esc>")
 vim.keymap.set("n", "x", '"_x')
 vim.keymap.set("n", "X", '"_X')
+vim.keymap.set("n", "K", "<cmd>Lspsaga hover_doc<CR>")
 
 local Util = require("lazyvim.util")
 
